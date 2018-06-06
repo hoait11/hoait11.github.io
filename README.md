@@ -1,78 +1,98 @@
-# Jekyll-Bootstrap
+# Dbyll
+Port of the open source Jekyll theme [dbyll](https://github.com/dbtek/dbyll) for Ghost platform.
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+![Screenshot](https://raw.github.com/dbtek/dbyll-ghost/master/screenshot.png)
 
-## Usage
+## Features
+###Customized Colors
+Dbyll provides flexibilty to have customized colors. You can customize text colors, headers and sidebar background color.
+You will have it just the way you love <i class="fa fa-heart"></i>
+For more, take a look at [configuration document](#configuration).
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+###Logo and Cover Images
+Dbyll supports Ghost logo and cover images. You can set blog's logo and sidebar cover image (background) just with a few clicks on Ghost settings.
 
-## Version
+###Disqus Comments
+**Usage**
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+- Create a disqus account if you don't have one.  
+- Set your disqus short name on ***options.js***. Check [configuration document](#configuration).
+- That's it.
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+###Google Code Prettify
+**Usage**
 
-## Milestones
+Add codes in posts like one added below:
 
-[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
+&#96;&#96;&#96;prettyprint  
+  #code  
+&#96;&#96;&#96;  
+ 
+ 
+###Icons <i class="fa fa-flag"></i>
 
-### GOALS
+Dbyll is packed with Bootstrap and FontAwesome icons. You can use all Glyphicon and FontAwesome icon sets in your posts.
 
-* No open PRs against master branch.
-* Squash some bugs.
-* Add some new features (low-hanging fruit).
-* Establish social media presence.
+**Usage**
 
+- Add this line in your post for flag icon:
+```html
+<i class="fa fa-flag"></i>
+```
+- Take a look at [FontAwesome](http://fontawesome.io/icons/) and [Glyphicon](http://getbootstrap.com/components/#glyphicons) sets.
 
-### Bugs
+##Configuration
+Dbyll provides some additional features such as customizable colors, social links with pretty sidebar buttons and disqus comment system.
 
-|Bug |Description
-|------|---------------
-|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
-|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
-|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
-|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
+You can configure theme options on *options.js* file. This file can be found on ***/content/themes/dbyll/options.js***
 
-### Features
+###options.js
 
-|Bug |Description
-|------|---------------
-|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
-|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
-|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
-|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
+Sample configuration bundled with theme:
 
-### TODOS
-
-Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
-
-* Create twitter account. Add link / icon on jekyllbootstrap.com.
-* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
-* Announce state of project, announce roadmap(s), announce new versions as they’re released.
-
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+```js
+  var site = {
+    
+    sidebar: {
+      textColor: '#fff',
+      backgroundColor: '#34495e',
+    },
+  
+    headerColor: '#e74c3c',
+  
+    author: {
+      email: "your@email",
+      github: "abc123",
+      twitter: "abc123",
+      pinterest: "abc123",
+      linkedin: "abc123"
+    },
+  
+    disqus: {
+      shortname: 'dbyll-ghost'
+    },
+  
+    analyticsTrackId: ''
+  }
+```
 
 
-## License
+###Sidebar
+Sidebar part can be customized to have personal colors. Blog title and description text color is set with *textColor* option in *sidebar*. Background color is also can be set with *backgroundColor* option. If you set a blog cover with Ghost settings this background option will be ignored.
 
-[MIT](http://opensource.org/licenses/MIT)
+###Section & Post Titles
+You can customize section and post title colors. Option *headerColor* is used to set desired color for titles.
+
+###Social Links
+There are pretty buttons on sidebar to let visitors reach you on social media.
+You can just remove corresponding social account option if you don't want to display it. You should set them with your account names in order to direct visitors to your accounts.
+
+###Disqus Comments
+To enable comments go to [disqus](http://disqus.com), get your disqus short name and set it on ***options.js***.
+
+###Google Analytics
+To activate Google Analytics tracking just create a property and set your tracking id with option *analyticsTrackId*.
+
+##Author
+
+Ismail Demirbilek [@dbtek](http://twitter.com/dbtek)
