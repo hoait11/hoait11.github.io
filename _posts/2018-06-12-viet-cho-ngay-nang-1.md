@@ -5,14 +5,29 @@ categories: [general, demo]
 tags: [demo, dbyll, dbtek]
 description: Nhật Ký, Viết Cho Ngày Nắng.
 ---
-
-Hôm nay nghe thông tin ở công ty cũ mọi người đang chuẩn bị chuyển công việc. Có nhiều anh chị đã gắn bó với công ty gần 10 năm rồi cũng phải tìm lại một bến đỗ mới cho mình. Sau khi bán lại cho 1 tập đoàn của nhật bản với những thay đổi chóng mặt về quy trình và chất lượng cho nhân viên. Căng hơn nữa là đến ông sếp cũng rút lui thì thua rồi. Ai giỏi cũng ra đi hết. Ngẫm lại, hồi xưa mình quyết định đi là đúng đắn.
-Nhiều khi nghỉ lại thấy trong cuộc sống cái may và cái rủi nó hiện hữu ngay gần kề mà con người ta không nhận ra đó thôi.
-
-Nếu cho bạn một ngày để ngẫm lại những chặng đường bạn đã đi qua thì bạn sẽ thấy. Cuộc sống không phải lúc nào trốn chạy cũng là hèn nhát cả.
-
 {% highlight ruby %}
-def foo
-  puts 'foo'
-end
+## Nếu Một Ngày Chúng Mình Chẳng Cưới Nhau (Sưu tầm Voz)
 {% endhighlight %}
+
+
+| Tables         
+| ----------------------------------------|
+| Nếu một ngày bọn mình chẳng cưới nhau        || Em có những đứa con, anh chẳng phải là cha        |
+| Anh vẫn thế thôi, lấy một cô vợ khác        || Ngày vẫn nấu ăn, những món chồng em thích        |
+| Gom những mảnh tình yêu vỡ nát        || Em vẫn đi chơi, xem phim, du lịch..        |
+| Anh cất vào lòng, ở một góc xa xăm        || Cuộc sống vẫn êm đềm, như chưa biết đến anh        |
+|                                             |
+| Cô vợ của anh chẳng biết chuyện bọn mình        || Nhưng giữa bộn bề tất tả chậm nhanh        |
+| Sẽ sinh những đứa con không gọi em là mẹ        || Còn có đau thương cho tình yêu đã lỡ?        |
+| Anh vẫn cười vui, anh nghĩ anh nên thế        || Mơ ước giản đơn, đã trở thành dang dở        |
+| Người vợ nào cũng đáng được yêu thương        || Ta sống nửa hồn, nửa đã chết từ lâu        |
+|                                             |
+| Em sẽ cũng thế thôi, khi mỗi đứa một đường        || Một nửa hồn đã mất lúc xa nhau        |
+| Chọn cho mình một người đàn ông khác        || Ta đem chôn cùng những niềm hy vọng        |
+| Pháo nổ rợp đường, ồn ào tiếng nhạc        || Còn thân xác, vì đời, nên vẫn sống        |
+| Đám cưới rộn ràng, em xúng xính váy hoa        || Vẫn nói cười, vẫn cố tỏ yêu thương        |
+|                                               |
+| Rồi gặp nhau giữa tấp nập phố phường        |
+| Liệu ta có thản nhiên quay mặt        |
+| Hay ôm chặt lấy nhau, tủi hờn nước mắt        |
+| Bọn mình sẽ thế nào? Nếu ta chẳng cưới nhau.       |
